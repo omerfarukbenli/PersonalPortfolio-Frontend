@@ -1,0 +1,29 @@
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img  class="img-fluid rounded" width="80px" src="/assets/a.JPG"/>
+      <hr style="color:white">
+
+
+
+      <tr *ngFor="let pic of about">
+
+      <p style="font-size: 25px; font-family: 'Roboto', sans-serif; color: burlywood; text-align: justify;">
+        Özgeçmiş</p>
+      <p style="font-size: 20px; font-family: 'Roboto', sans-serif; color: aliceblue; text-align: justify;">
+        {{ pic.cvTurk }}</p>
+      </tr>
+    </div>
+    <div class="col">
+      <tr *ngFor="let pic of about">
+      <p style="font-size: 25px; font-family: 'Roboto', sans-serif; color: burlywood; text-align: justify;">
+        Background</p>
+      <p style="font-size: 20px; font-family: 'Roboto', sans-serif; color: aliceblue; text-align: justify;">
+        {{ pic.cvEnglish }}</p>
+
+      </tr>
+        <hr style="color:white">
+        <img  class="img-fluid rounded" width="600px" src="/assets/bbbb.png"/>
+    </div>
+  </div>
+

@@ -1,0 +1,45 @@
+
+
+<div class="container">
+  <p id="baslik">İletişim Sayfası</p>
+  <ul class="list-group">
+
+    <tr *ngFor="let cnt of contact">
+      <!--datayı yazdırmak için-->
+
+
+
+    <li class="list-group-item">
+      <p><i class="fa-solid fa-user fa-2x fa-beat"></i> &nbsp;&nbsp; {{ cnt.fullName }}</p>
+    </li>
+    <li class="list-group-item">
+      <p><i class="fa-solid fa-phone fa-2x fa-beat"></i> &nbsp;&nbsp; {{ cnt.phone }}</p>
+    </li>
+    <li class="list-group-item">
+      <p><i class="fa-solid fa-location-pin fa-2x fa-beat"></i> &nbsp;&nbsp; {{ cnt.address }}</p>
+    </li>
+    <li class="list-group-item">
+      <p><i class="fa-solid fa-envelope fa-2x fa-beat"></i> &nbsp;&nbsp; <a href="https://outlook.live.com/mail/">Mail </a></p>
+    </li>
+    <li class="list-group-item">
+      <p><i class="fa-brands fa-instagram-square fa-2x fa-beat"></i> &nbsp;&nbsp; omerfaruk.b</p>
+    </li>
+
+    <li class="list-group-item">
+      <p><i class="fa-brands fa-linkedin fa-2x fa-beat"></i> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/%C3%B6mer-faruk-benli-5a6719241">Linkedin</a></p>
+    </li>
+    <li class="list-group-item">
+      <p><i class="fa-brands fa-github fa-2x fa-beat"></i> &nbsp;&nbsp; <a href="https://github.com/omerfarukbenli">Github </a> </p>
+    </li>
+    <li class="list-group-item">
+      <p><i class="fa-brands fa-youtube fa-2x fa-beat"></i> &nbsp;&nbsp; <a href="https://www.youtube.com/channel/UCnlOSRG2OWoXfwbhpMdzTQw">Youtube </a></p>
+    </li>
+    <li class="list-group-item">
+      <p><i class="fa-brands fa-medium fa-2x fa-beat"></i> &nbsp;&nbsp; <a href="https://medium.com/@omerfarukbenli034">Medium</a></p>
+    </li>
+ </tr>
+  </ul>
+
+</div>
+
+
